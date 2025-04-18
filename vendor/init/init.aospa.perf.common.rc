@@ -126,7 +126,7 @@ on property:vendor.post_boot.parsed=1
     write /sys/block/sdf/queue/read_ahead_kb 128
 
     # Set CPU Boost Duration
-    write /sys/devices/system/cpu/cpu_boost/input_boost_ms 200
+    write /sys/devices/system/cpu/cpu_boost/input_boost_ms 40
     write /proc/sys/walt/input_boost/input_boost_ms 200
 
 # Dynamically set IRQ affinity for KGSL and DRM/MDSS
